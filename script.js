@@ -11,8 +11,9 @@ var lowercase = "abcdefghijklmnopqrstuvwxyz";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var symbols = "!@#$%^&*~";
-var allowed = "";
 var password = "";
+var allowed = "password";
+
 // Add event listener to generate button, placed after strings to follow chronological logic
 generateBtn.addEventListener("click", writePassword);
 
@@ -21,19 +22,28 @@ generateBtn.addEventListener("click", writePassword);
 //length prompt appears asking user to select a password character length
 //if user chooses a charcter length between 8 and 128 they can continue
 //if user does not choose a character length between 8 and 128 they are prompted to try again
+
 function writePassword() {
   var password = generatedPassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
   var passwordLength = window.prompt("Enter a number between 8 - 128 characters:");
-  if (!passwordLength) {
-      window.alert("Please choose a number between 8 - 128 characters. Please try again.");
-      return;
-  }
-  else if (passwordLength < 8 || passwordLength > 128) {
-      window.alert("Please choose a number between 8 - 128 characters. Please try again.");
-      return;
-  }
+    if (!passwordLength) {
+        window.alert("Please choose a number between 8 - 128 characters. Please try again.");
+        return;
+    }
+    else if (passwordLength < 8 || passwordLength > 128) {
+        window.alert("Please choose a number between 8 - 128 characters. Please try again.");
+        return;
+      }
+    else if(isNaN(passwordLength)){
+        window.alert("Please choose a number not a character. Please try again");
+        return;
+      }
+    else if (passwordLength > 8 || passwordLength < 128) {
+        window.alert("Please choose a number between 8 - 128 characters. Please try again.");
+        console.log(passwordLength);
+    }
 function generatedPassword (){
     if (document.generator.upperCase.checked) {
         allowed = allowed + upperCase;
@@ -46,13 +56,11 @@ function generatedPassword (){
     }
     if (document.generator.symbols.checked) {
         allowed = allowed = symbols;
-    }
-};
-    var passwordLength = window.prompt("Enter a number between 8 - 128 characters:");
-    if (!passwordLength) {
-        window.alert("Please choose a number between 8 - 128 characters. Please try again.");
-        return;
-    }
-    else if (passwordLength < 8 || passwordLength > 128) {
-        window.alert("Please choose a number between 8 - 128 characters. Please try again.");
-        return};
+    };
+
+    for (var i = 0; i < length; i++) {
+        var random = Math.flow(Math.random() * allowed.length);
+        password += allowed[random]
+    };
+    return password
+    //officially not sure why this is not working 

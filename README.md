@@ -10,17 +10,15 @@ Welcome to the Password Conjurer, a password generator created utilizing fundame
 
 When the user clicks the "Manifest Password" Button, they will be presented with a series of prompts to reinforce selection of password criteria to generate a unique, impenetrable password.
 
-Once the basic criteria have been met, the application will generate a corresponding password.
+Once the basic criteria have been met, the application will generate a random, albeit password.
 
 
 
-![password generator main]() 
+![generator main](assets/Deployed_Site.jpg)
 
 Here is the deployed website URL:
 
-![password generator demo]()
-
-![Github URL]()
+![Github URL](https://github.com/LawrieDrew/Password-Generator.git)
 
 ![Background Image Copyright] (https://weheartit.com/eerriinnxo)
 
