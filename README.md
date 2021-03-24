@@ -14,13 +14,13 @@ Once the basic criteria have been met, the application will generate a random, a
 
 
 
-![generator main](assets/Deployed_Site.jpg)
+[generator main](assets/Deployed_Site.jpg)
 
 Here is the deployed website URL:
 
-![Github URL](https://github.com/LawrieDrew/Password-Generator.git)
+[Github URL](https://github.com/LawrieDrew/Password-Generator.git)
 
-![Background Image Copyright] (https://weheartit.com/eerriinnxo)
+[Background Image Copyright] (https://weheartit.com/eerriinnxo)
 
 Copyright (c) [2021] [Columbia School of Engineering]
 
