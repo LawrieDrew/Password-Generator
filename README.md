@@ -17,7 +17,7 @@ Once the basic criteria have been met, the application will generate a random, a
 
 Here is the deployed website URL:
 
-[Github URL](https://github.com/LawrieDrew/Password-Generator.git)
+[Github URL](https://lawriedrew.github.io/Password-Generator/)
 
 [Background Image Copyright] (https://weheartit.com/eerriinnxo)
 
