@@ -12,14 +12,14 @@ When the user clicks the "Manifest Password" Button, they will be presented with
 
 Once the basic criteria have been met, the application will generate a random, albeit password.
 
-![Screenshot](assets/Deployed_Site.jpg)
 
+![generator main](assets/Deployed_Site.jpg)
 
 Here is the deployed website URL:
 
 [Github URL](https://lawriedrew.github.io/Password-Generator/)
 
-[Background Image Copyright] (https://weheartit.com/eerriinnxo)
+![Background Image Copyright] (https://weheartit.com/eerriinnxo)
 
 Copyright (c) [2021] [Columbia School of Engineering]
 
@@ -40,4 +40,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
